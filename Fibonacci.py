@@ -1,4 +1,4 @@
-n=int(input("Enter the number to check: "))
+n=int(input("Enter the numbers for checking: "))
 c=0
 a=1
 b=1
@@ -10,6 +10,6 @@ else:
         b=a
         a=c
     if c==n:
-        print("Yes,  the number entered is in Fibonacci Series.")
+        print("Yes,  the number  is in Fibonacci Series.")
     else:
-        print("No, the number entered is not in Fibonacci Series.")
+        print("No, the number is not in Fibonacci Series.")
